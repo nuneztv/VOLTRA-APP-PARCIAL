@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <link rel="stylesheet" href="../../../Styles/Stylesnavbar.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <button id="menu-btn">☰</button>
+    <h1 class="logo">VOLTRA</h1>
+  </div>
+
+  <nav class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="logout.html">Log out</a>
+  </nav>
+
+  <div class="nav-right">
+    <input type="text" id="search" placeholder="Search..." />
+    <div id="results"></div>
+    <img src="https://i.pravatar.cc/40" class="avatar" />
+  </div>
+</header>
+
+<div id="sidebar" class="sidebar">
+
+  <div class="sidebar-header">
+    <h2>Menu</h2>
+    <button id="close-btn">✖</button>
+  </div>
+
+  <div class="sidebar-links">
+    <a href="home.html">
+      <i data-feather="home"></i>
+      Home
+    </a>
+
+    <a href="favorites.html">
+      <i data-feather="bookmark"></i>
+      Favorites
+    </a>
+
+    <a href="profile.html">
+      <i data-feather="user"></i>
+      Profile
+    </a>
+
+    <a href="logout.html">
+      <i data-feather="log-out"></i>
+      Log out
+    </a>
+  </div>
+
+</div>
+
+<section class="featured">
+  <h2>🔥 Featured</h2>
+  <div class="cards">
+    <a href="popular.html">🎮 Popular Games</a>
+    <a href="top.html">⭐ Top Rated</a>
+    <a href="month.html">🏆 Game of the Month</a>
+  </div>
+</section>
+
+<script src="scriptnavbar.js"></script>
+
+</body>
+</html>
