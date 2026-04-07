@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1.25rem 3rem;
+    padding: 2rem clamp(20px, 5vw, 60px);
 }
 
 .header {
@@ -167,3 +167,44 @@ body {
         grid-template-columns: 1fr;
     }
 }
+.pantalla {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.oculto {
+    display: none;
+}
+body {
+    padding: 0 10px;
+}
+.grid {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
+
