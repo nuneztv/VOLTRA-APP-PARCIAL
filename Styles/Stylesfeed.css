@@ -133,6 +133,14 @@ body {
     transform: scale(1.08);
 }
 
+.icons i.is-liked {
+    color: #ff4d6d;
+}
+
+.icons i.is-saved {
+    color: #fbbf24;
+}
+
 .stars {
     display: flex;
     align-items: center;
