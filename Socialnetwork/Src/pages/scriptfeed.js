@@ -52,3 +52,4 @@ document.querySelectorAll(".stars").forEach((grupo) => {
     });
   });
 });
+
