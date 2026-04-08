@@ -186,8 +186,10 @@ body {
     display: none;
 }
 body {
-    padding: 0 10px;
+    margin: 0;
+    padding: 0;
 }
+
 .grid {
     width: 100%;
 }

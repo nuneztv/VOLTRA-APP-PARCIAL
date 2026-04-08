@@ -14,12 +14,21 @@ const search = document.getElementById("search");
 const results = document.getElementById("results");
 
 const games = [
+   "San Andreas",
+  "Fortnite",
   "Call of Duty",
-  "Candy Crush",
-  "CarX Drift",
-  "Clash Royale",
-  "Cyberpunk",
-  "Counter Strike"
+  "Robots",
+  "Sims 4",
+  "Minecraft",
+  "Ratchet & Clank",
+  "Rocket League",
+  "Resident Evil",
+  "God of War",
+  "Spider-Man",
+  "The Last of Us",
+  "Silent Hill",
+  "Zelda",
+  "Uncharted"
 ];
 
 search.addEventListener("input", () => {
